@@ -41,3 +41,27 @@ pizzas.csv: Information on pizzas by size and type:
 pizza_id: Unique identifier for each pizza.
 pizza_type_id: Identifier connecting each pizza to its type.
 size: Size of the pizza (small, medium, large, etc.).
+
+Project Structure
+The repository is organized as follows:
+
+data/: Contains the raw data files (order_details.csv, orders.csv, pizza_types.csv, pizzas.csv).
+queries/: SQL query files used to explore and analyze the data.
+scripts/: SQL scripts for creating tables, importing data, and generating reports.
+README.md: Documentation of the project (this file).
+## Key SQL Queries
+The project includes a set of SQL queries designed to answer business-related questions, such as:
+
+Sales by Product: Identifies which pizzas contribute most to total sales.
+Peak Sales Analysis: Finds the busiest days and times for orders.
+Customer Preferences: Determines the most popular pizza types, combinations, and ingredients.
+Inventory Insights: Helps with inventory planning by analyzing trends in pizza ingredient use.
+Each query file includes comments explaining the purpose of the query, as well as sample outputs.
+
+## Insights and Findings
+Key insights from the analysis include:
+
+Top-Selling Products: Insights into the most popular pizzas and sizes.
+Optimal Sales Times: Peak sales occur during specific times and days, allowing for improved staffing and inventory planning.
+Customer Preferences: Data on the most popular ingredients and pizza combinations.
+Inventory Optimization: Recommendations for managing stock levels to reduce waste.
